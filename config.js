@@ -9,7 +9,7 @@ const CONFIG = {
   // --- Datos de la defensa ---------------------------------
   titulo:    "✨Defensa de Tesis✨",
   subtitulo: "Licenciatura en Ciencias de la Computación — FCEN, UBA",
-  nombre:    "Valeria Arrosio",            // tu nombre
+  nombre:    "Valeria A.",            // tu nombre
   // tituloTesis: "Acerca de cuestiones de distribución uniforme",   // título del trabajo
 
   // --- Fecha y hora de la defensa --------------------------
