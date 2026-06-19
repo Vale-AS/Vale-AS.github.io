@@ -20,7 +20,25 @@ Sitio estático, sin dependencias. Se abre con doble clic en `index.html`.
 - Cuando llega la hora, muestra "La defensa está ocurriendo ahora".
 - Cuando termina (según `duracionMinutos`), muestra un mensaje de agradecimiento.
 
-## Para publicarlo
+## Publicación (GitHub Pages)
 
-Subí los archivos a cualquier hosting estático gratuito (GitHub Pages, Netlify,
-Cloudflare Pages, Vercel). No necesita servidor ni build.
+El sitio ya está publicado en: **https://vale-as.github.io/**
+(repositorio: `Vale-AS/Vale-AS.github.io`, rama `main`, carpeta raíz).
+
+### Para actualizar el sitio
+
+Después de editar `config.js` (o cualquier archivo), abrí una terminal en esta
+carpeta y corré:
+
+```
+git add -A
+git commit -m "descripción del cambio"
+git push
+```
+
+En ~1 minuto GitHub Pages publica los cambios. Si no ves la actualización,
+refrescá con Ctrl+F5 (o Cmd+Shift+R) para saltear la caché del navegador.
+
+> Nota: GitHub Pages distingue mayúsculas y minúsculas en los nombres de archivo.
+> Si agregás una imagen, escribí el nombre en `config.js` **exactamente** igual
+> (incluyendo mayúsculas) a como se llama el archivo.
