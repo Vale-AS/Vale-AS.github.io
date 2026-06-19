@@ -33,7 +33,7 @@ const CONFIG = {
   // --- Mapa del aula (imagen) ------------------------------
   // Cuando tengas la imagen, ponela en esta carpeta y escribí su nombre.
   // Ej: "mapa-aula.png". Dejá "" para mostrar un cartel de "próximamente".
-  mapaImagen: "planoCeroMasInf.png",
+  mapaImagen: "PlanoCeroMasInf.png",
   // mapaAlt: "Cómo llegar al aula de la defensa",
   mapaAlt: "Cuando se asigne el aula, se marcará en la imagen",
   
