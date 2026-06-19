@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Defensa de Tesis</title>
+  <link rel="icon" href="favicon.ico" />
+  <meta name="description" content="Cuenta regresiva para la defensa de tesis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+
+    <!-- Encabezado -->
+    <header class="hero">
+      <p class="eyebrow" id="subtitulo"></p>
+      <h1 id="titulo"></h1>
+      <!-- <p class="thesis-title" id="tituloTesis"></p> -->
+      <p class="author" id="nombre"></p>
+    </header>
+
+    <!-- Cuenta regresiva -->
+    <section class="countdown" aria-label="Cuenta regresiva">
+      <div class="unit"><span class="num" id="dias">--</span><span class="label">días</span></div>
+      <div class="sep">:</div>
+      <div class="unit"><span class="num" id="horas">--</span><span class="label">horas</span></div>
+      <div class="sep">:</div>
+      <div class="unit"><span class="num" id="min">--</span><span class="label">min</span></div>
+      <div class="sep">:</div>
+      <div class="unit"><span class="num" id="seg">--</span><span class="label">seg</span></div>
+    </section>
+
+    <!-- Mensaje cuando llega el día / mientras ocurre -->
+    <p class="live-banner" id="liveBanner" hidden></p>
+
+    <!-- Fecha legible + lugar -->
+    <section class="details">
+      <p class="when" id="fechaLegible"></p>
+      <p class="where" id="lugar"></p>
+    </section>
+
+    <!-- Acciones: transmisión en vivo -->
+    <section class="actions" id="actions">
+      <a class="btn btn-primary" id="youtubeBtn" href="#" target="_blank" rel="noopener" hidden>
+        Ver transmisión en vivo
+      </a>
+    </section>
+
+    <!-- Embed de Google Calendar -->
+    <section class="block" id="calendarBlock" hidden>
+      <h2>Agendá la fecha</h2>
+      <div class="embed-wrap">
+        <iframe id="calendarIframe" title="Google Calendar" style="border:0" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </section>
+
+    <!-- Mapa del aula -->
+    <section class="block" id="mapaBlock">
+      <h2>Cómo llegar</h2>
+      <figure class="map">
+        <img id="mapaImg" alt="" hidden />
+        <div class="map-placeholder" id="mapaPlaceholder">
+          <span>🗺️</span>
+          <p>El mapa del aula estará disponible próximamente.</p>
+        </div>
+        <figcaption id="mapaCaption" hidden></figcaption>
+      </figure>
+      <div class="actions">
+        <a class="btn btn-primary" id="mapsBtn" href="#" target="_blank" rel="noopener" hidden>
+          Abrir en Google Maps
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p id="footerLugar"></p>
+    </footer>
+
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
