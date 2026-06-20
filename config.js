@@ -20,7 +20,7 @@ const CONFIG = {
   duracionMinutos: 60, // duración estimada (para el "Agregar al calendario")
 
   // --- Lugar -----------------------------------------------
-  lugar: "Aula a confirmar — Pabellón 0+inf, Ciudad Universitaria",
+  lugar: "Aula 1604 — Pabellón 0+inf, Ciudad Universitaria",
 
   // --- Enlaces (dejá "" si todavía no los tenés) -----------
   youtubeUrl: "",          // ej: "https://www.youtube.com/watch?v=XXXXXXXX"
@@ -34,8 +34,8 @@ const CONFIG = {
   // Cuando tengas la imagen, ponela en esta carpeta y escribí su nombre.
   // Ej: "mapa-aula.png". Dejá "" para mostrar un cartel de "próximamente".
   mapaImagen: "PlanoCeroMasInf.png",
-  // mapaAlt: "Cómo llegar al aula de la defensa",
-  mapaAlt: "Cuando se asigne el aula, se marcará en la imagen",
+  mapaAlt: "Cómo llegar al aula de la defensa",
+  //  mapaAlt: "Cuando se asigne el aula, se marcará en la imagen",
   
   // Link a Google Maps con el pin del lugar.
   // Abrí Google Maps, ubicá el lugar, tocá "Compartir" y pegá el link acá.

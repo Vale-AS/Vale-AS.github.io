@@ -42,6 +42,9 @@
     const yt = $("youtubeBtn");
     yt.href = CONFIG.youtubeUrl;
     yt.hidden = false;
+  } else {
+    // Sin link de transmisión: ocultamos la sección para no dejar un hueco.
+    $("actions").hidden = true;
   }
 
   // ---------- Google Calendar embed ----------
